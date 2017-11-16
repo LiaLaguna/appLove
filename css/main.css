@@ -1,0 +1,281 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Raleway; sans-serif;
+}
+
+nav {
+  position: fixed;
+  background-color: #fff;
+  width: 1366px;
+  height: 98px;
+}
+
+nav > a {
+  position: relative;
+  color: #373B47;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  top: 35px;
+  left: 152px;
+  padding: 23px;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+nav > img {
+  float: right;
+  padding-right: 151px;
+  padding-top: 13px;
+  width: 71px;
+  height: 71px;
+}
+
+.presentation {
+  position: absolute;
+  top: 98px;
+}
+
+.presentation > img {
+  position: relative;
+  width: 1366px;
+  height: 536px;
+}
+
+.presentation > div {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.presentation > div > h2 {
+  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+  bottom: 462px;
+}
+
+.presentation > div > h1 {
+  position: relative;
+  font-size: 50px;
+  font-weight: 700;
+  bottom: 395px;
+}
+
+.presentation > div > p {
+  position: relative;
+  font-size: 15px;
+  font-weight: 200;
+  bottom: 377px;
+}
+
+.button-services {
+  position: relative;
+  background-color: #2ecc71;
+  bottom: 240px;
+  left: 609px;
+  width: 148px;
+  height: 46px;
+}
+
+.button-services > a {
+  position: relative;
+  font-size: 15px;
+  font-weight: 200;
+  top: 12.5px;
+}
+
+.services {
+  position: absolute;
+  top: 634px;
+  background-color: #f17c72;
+  width: 1366px;
+  height: 667px;
+  color: #fff;
+}
+
+.services > h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  top: 85px;
+}
+
+.services > h4 {
+  position: relative;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  top: 125px;
+  line-height: 26px;
+}
+
+.user-interface-design {
+  float: left;
+  margin-left: 265px;
+  margin-top: 187px;
+}
+
+.user-interface-design > img {
+  width: 200px;
+  height: 200px;
+  margin-right: 152px;
+}
+
+.info {
+  margin-left: 221px;
+  margin-top:0px;
+}
+
+.info > .ui,
+.info > .concept,
+.info > .branding {
+  float: left;
+  margin-right: 231px;
+  font-weight: 100;
+}
+
+.info > .ui > h5,
+.info > .concept > h5,
+.info > .branding  > h5{
+  text-transform: uppercase;
+}
+
+.work {
+  position: absolute;
+  top: 1301px;
+  background-color: #fff;
+  width: 1366px;
+  height: 2312px;
+  color: #404040;
+}
+
+.work > h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  top: 85px;
+}
+
+.work > h4 {
+  position: relative;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  top: 125px;
+  line-height: 26px;
+}
+
+.work > img {
+  position: relative;
+  width: 940.94px;
+  height: 901.08px;
+  top: 191px;
+  left: 218px;
+}
+
+.portfolio1 {
+  float: left;
+  left: 80px;
+  margin-left: 163px;
+  margin-top: 212px;
+}
+
+.portfolio1 > img {
+  width: 300px;
+  height: 249px;
+  margin-right: 65px;
+}
+
+.text1 {
+  margin-left: 217px;
+}
+
+.text1 > p {
+  float: left;
+  text-transform: uppercase;
+  color: #404040;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-right: 195px;
+}
+
+.portfolio2 {
+  float: left;
+  left: 80px;
+  margin-left: 163px;
+  margin-top: 79px;
+}
+
+.portfolio2 > img {
+  width: 300px;
+  height: 249px;
+  margin-right: 65px;
+}
+
+.text2 {
+  margin-left: 217px;
+}
+
+.text2 > p {
+  float: left;
+  text-transform: uppercase;
+  color: #404040;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-right: 195px;
+}
+
+.portfolio3 {
+  float: left;
+  left: 80px;
+  margin-left: 163px;
+  margin-top: 79px;
+}
+
+.portfolio3 > img {
+  width: 300px;
+  height: 249px;
+  margin-right: 65px;
+}
+
+.text3 {
+  margin-left: 217px;
+}
+
+.text3 > p {
+  float: left;
+  text-transform: uppercase;
+  color: #404040;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-right: 195px;
+}
+
+.section-footer {
+  position: relative;
+  width: 1366px;
+  height: 70px;
+  background-color: #373b47;
+  top: 3613px;
+}
+
+footer > p {
+  position: relative;
+  font-size: 16px;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+  top:29px;
+}
